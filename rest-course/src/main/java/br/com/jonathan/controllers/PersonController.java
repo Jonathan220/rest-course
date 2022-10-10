@@ -18,7 +18,7 @@ import br.com.jonathan.data.vo.v1.PersonVO;
 import br.com.jonathan.services.PersonServices;
 
 @RestController
-@RequestMapping(value = "/person")
+@RequestMapping(value = "/api/person/v1")
 public class PersonController {
 	
 	@Autowired
